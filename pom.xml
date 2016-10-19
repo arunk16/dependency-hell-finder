@@ -5,8 +5,9 @@
   <artifactId>dependency-finder</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>dependency-finder Maven Webapp</name>
+  <name>dependency-finder</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -35,6 +36,7 @@
           <version>3.3.9</version>
       </dependency>
   </dependencies>
+
   <build>
     <finalName>dependency-finder</finalName>
     <plugins>
